@@ -1,0 +1,31 @@
+* {padding: 0; margin: 0; border: 0;}
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+a:focus, a:active {outline: none}
+a, a:visited, a:hover {text-decoration: none}
+ul li {list-style: none}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F5F5F5;
+    color: #808080;
+}
+
+.header {
+    margin: 20px 0 0 10px;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    width: 50%;
+    padding: 20px 20px 12px 20px;
+    margin: 10px 0 0 10px;
+    border: 1px solid #808080;
+}
+
+.list-item > div {
+    padding-bottom: 8px;
+}
